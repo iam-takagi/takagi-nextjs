@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Image from 'next/image'
 
 const Index = () => {
   return (
@@ -16,8 +15,8 @@ const Index = () => {
       <div className="min-h-screen">
         <div className="container mx-auto h-screen flex justify-center text-center">
           <div className="w-2/3 mx-auto flex-col">
-            <div className="flex justify-center items-center pt-2">
-              <Image src="/icon.png" alt="" width="128" height="128" className="w-128 h-128 rounded-full border-4 border-purple-400 border-opacity-50 pointer-events-none select-none" />
+            <div className="flex justify-center items-center">
+              <img src="/icon.png" alt="" width="128" height="128" className="w-128 h-128 rounded-full pointer-events-none select-none" />
             </div>
             <div className="desc w-full my-6 space-y-1">
               <p className="text-lg">I am Takagi.</p>
@@ -90,7 +89,7 @@ const Index = () => {
                 </p>
 
                 <div className="flex justify-center items-center pt-3 pb-3">
-                <Image src="/gear.jpeg" alt="" height="500" width="400" className="rounded-md"/>
+                <img src="/gear.jpeg" alt="" height="500" width="400" className="rounded-md border-4 border-blue-400 border-opacity-50 pointer-events-none select-none"/>
                 </div>
               </div>
             </div>
